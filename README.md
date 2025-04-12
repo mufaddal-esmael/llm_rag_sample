@@ -26,3 +26,7 @@ API Keys:
 
 Copy the .env.sample file and rename it to .env
 Replace the placeholder values with your actual API keys and endpoints
+
+Run Docker:
+docker build -t llm_rag_sample .
+docker run -p 8000:8000 llm_rag_sample
